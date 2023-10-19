@@ -1,0 +1,33 @@
+.steps {
+    margin-top: 120px;
+}
+.steps-wrapper {
+    display: grid;
+
+    grid-template-columns: 50% 50%;
+    
+}
+.steps-items {
+    display: grid;
+    grid-column: 2;
+}
+.steps-step {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: 2px solid black;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.steps-text {
+    font-size: 48px;
+}
+
+.steps-step-h {
+    font-size: 36px;
+    font-style: bold;
+}
+
+.steps-h {
+    width: 50%;
+    margin-bottom: 20px;
+}

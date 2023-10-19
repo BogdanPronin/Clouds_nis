@@ -1,0 +1,23 @@
+.projects {
+ margin-top: 120px;
+}
+
+.projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.projects-text {
+    width: 100%;
+    padding-left: 10px;
+    font-size: 48px;
+    padding-bottom: 22px;
+}
+
+.projects-wrapper > img {
+    width: 445px;
+    height: 580px;
+}
+

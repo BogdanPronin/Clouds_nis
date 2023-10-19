@@ -1,0 +1,37 @@
+.header {
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.header-wrapper {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 1fr 207px 1fr;
+    grid-template-areas:
+        "a . e"
+        "b . ."
+        "c . ."
+        "d . .";
+
+}
+
+.header-a {
+    grid-area: a;
+}
+
+.header-b {
+    grid-area: b;
+}
+
+.header-c {
+    grid-area: c;
+}
+
+.header-d {
+    grid-area: d;
+}
+
+.header-e {
+    grid-area: e;
+}
